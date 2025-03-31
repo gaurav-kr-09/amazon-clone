@@ -1,0 +1,26 @@
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.cart i{
+    font-size: 1.875rem;
+}
+
+.small-text{
+    font-size: 0.75rem;
+}
+
+.large-text{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.nav-right div{
+    padding: 5px;
+}

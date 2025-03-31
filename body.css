@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+
+.hero-section{
+    background-image: url("header-logos/upar-image.jpg");
+    height: 350px;
+    background-size: cover;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: #f5f6f6;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 85%;
+
+    margin-bottom: 25px;
+    font-size: 0.875rem;
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* body*/
+
+.body-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-section{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    width: 100%;
+}
+
+.boxes{
+    height: 370px;
+    width: 350px;
+    background-color: white;
+}
+
+.display-box img{
+    height: 280px;
+    width: 310px;
+    padding: 10px 20px;
+}
+
+.title-box{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #0F1111;
+}
+
+.shop-link{
+    margin-top: -2px;
+    padding-left: 20px;
+    display: flex;
+    align-items: top;
+}
+
+.shop-link a{
+    color: #2162a1;
+    text-decoration: none;
+    font-size: 0.8125rem;
+}
+
+
+.umiddle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+/** india section **/
+
+.indian-pick{
+    margin: 5px;
+    margin-bottom: 5px none;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #0F1111;
+}
+
+.indian-section{
+    background-color: white;
+    width: 1440px;
+    padding: 10px;
+}
+
+
+.image-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/** lower middle **/
+
+.lmiddle-section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    height: 370px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.25rem;
+} 
+
+.l-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.boxa{
+    background-color: white;
+    width: 330px;
+    height: 370px;
+    padding: 10px;
+}
+
+.l-middle-up{
+    display: flex;
+    gap: 10px;
+}
+
+.child-up img{
+    height: 100px;
+}
+
+.l-title{
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.child-up a{
+    text-decoration: none;
+    color: #0F1111;
+    font-size: 0.75rem;
+}
+
+.l-midlle-link{
+    color: #2162a1;
+    text-decoration: none;
+    font-size: 0.8125rem;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+.login{
+    height: 150px;
+    width: 1500px;
+    padding: 10px 30px;
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(182, 182, 58);
+    font-size: 1.1875rem;
+    border: none;
+}
+
+.register:hover{
+    cursor: pointer;
+    outline: 2px solid red;
+}
+
+.login p{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}

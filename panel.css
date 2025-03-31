@@ -1,0 +1,28 @@
+.panel-bar{
+    background-color: #232f3e;
+    height: 40px;
+    color: white;
+
+    display: flex;
+}
+
+.panel-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.panel-right div{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.hamburger-menu{
+    width: 50px;
+    padding: 5px;
+}
